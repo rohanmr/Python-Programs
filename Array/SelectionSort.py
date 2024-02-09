@@ -7,9 +7,10 @@ def selectionSort(arr):
         for j in range(i+1,n):
             if arr[j]<arr[mini]:
                 mini=j
-
-            if mini !=i:
+            
+            if mini!=i:
                 arr[i],arr[mini]=arr[mini],arr[i]
 
 selectionSort(arr)
+
 print(arr)
