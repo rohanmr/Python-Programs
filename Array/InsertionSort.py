@@ -1,5 +1,4 @@
-
-arr=[30,20,40,50,10]
+arr=[90,10,30,50,70,40,80,60,20]
 
 def insertionSort(arr):
     n=len(arr)
