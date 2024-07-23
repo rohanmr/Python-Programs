@@ -1,7 +1,8 @@
-arr=[50,10,20,40,60,30]
+arr=[10,50,20,40,60,30]
+
 def bubbleSort(arr):
     n=len(arr)
-    for i in range(n):
+    for i in range(n-1):
         swapped=False
         for j in range(0,n-i-1):
             if arr[j]>arr[j+1]:
@@ -9,6 +10,5 @@ def bubbleSort(arr):
                 swapped=True
         if not swapped:
             break
-
 bubbleSort(arr)
 print(arr)
