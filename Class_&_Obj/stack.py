@@ -1,18 +1,25 @@
 class stack:
     def __init__(self) -> None:
-        self.values=[]
+        self.value=[]
     
-    def push(self,x):
-        self.values=[x]+self.values
-
-    def pop(self):
-        self.values.pop(0)
+    def Push(self,x):
+        self.value=[x]+self.value
+    
+    def Pop(self):
+        return self.value.pop(0)
+    
 
 s=stack()
-s.push(10)
-s.push(20)
-s.push(30)
-s.push(40)
-s.push(50)
 
-print(s.values)
+s.Push(10)
+s.Push(20)
+s.Push(30)
+s.Push(40)
+s.Push(50)
+s.Push(60)
+
+print("Element list:",s.value)
+
+print("Deleted element is :",s.Pop())
+
+print("New Element list:",s.value)
