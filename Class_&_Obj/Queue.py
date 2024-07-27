@@ -1,4 +1,3 @@
-
 class queue:
     def __init__(self) -> None:
         self.values=[]
@@ -8,7 +7,7 @@ class queue:
 
     def dequeue(self):
         front = self.values[0]
-        self.values=self.values[1:]
+        self.values=self.values[1:] #deleting first element using slicing
         return front
 
 
