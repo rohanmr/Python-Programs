@@ -1,3 +1,4 @@
+# It's a positive integer the sum of all its factors is equal to the number the this is a perfect number
 num=int(input("Enter the number: "))
 
 def perfectNo(num):
