@@ -8,5 +8,5 @@ if num > 1 :
             print("No is not Prime no")
             break
         else:
-            print("No is Prime no")
+            print("is Prime no")
             break
