@@ -7,6 +7,6 @@ if num > 1 :
         if num % i == 0:
             print("No is not Prime no")
             break
-        else:
-            print("is Prime no")
-            break
+    else:
+        print("is Prime no")
+            
