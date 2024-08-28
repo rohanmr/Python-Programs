@@ -14,3 +14,14 @@ print(reversedStr)
 outputStr=" ".join(reversedStr)
 
 print(outputStr)
+
+
+# # Reverse a string?
+
+
+# string=input("Enter the string")
+
+
+# reverse=string[::-1]
+
+# print(reverse)
