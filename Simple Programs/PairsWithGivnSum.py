@@ -1,13 +1,13 @@
-# Print all pairs with given sum
+#  Given an array A and a number X, Check any pair exists in array A which has sum exactly as X.
 
-list=[8,7,6,5,3,4,2,1,12,15]
+arr=[10, 40, 1, 2, 3, 4, 5, 7, 8, 15, 55, 30]
 
-n=len(list)
+n=len(arr)
 
 num=input("Enter the no to obtain the pair of sum: ")
 
 for i in range(n):
     for j in range(i+1,n):
-        if list[i]+list[j]==int(num):
-            print(list[i],list[j])
+        if arr[i] + arr[j] == int(num):
+            print([arr[i],arr[j]])
         
