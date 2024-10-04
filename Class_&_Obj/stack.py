@@ -1,13 +1,13 @@
 class stack:
     def __init__(self) -> None:
-        self.value=[]
+        self.values=[]
     
     def Push(self,x):
-        self.value=[x]+self.value
+        self.values=[x]+self.values
     
     def Pop(self):
-        return self.value.pop(0)
-    
+        return self.values.pop(0)
+
 
 s=stack()
 
@@ -16,10 +16,12 @@ s.Push(20)
 s.Push(30)
 s.Push(40)
 s.Push(50)
-s.Push(60)
 
-print("Element list:",s.value)
+print("Elements in the stack:",s.values)
 
-print("Deleted element is :",s.Pop())
+print("Deleted element is:",s.Pop())
 
-print("New Element list:",s.value)
+print("New stack list is:", s.values)
+
+
+
