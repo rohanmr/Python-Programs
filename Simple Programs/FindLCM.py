@@ -1,16 +1,16 @@
-# LCM of Two No "Least Common Multiple"
+x=int(input("Enter the 1st no:"))
+y=int(input("Enter the 2nd no:"))
 
-x=int(input("Enter the first no: "))
-y=int(input("Enter the second no: "))
-
-if x > y :
-    b = x
+if x > y:
+    b=y
 else:
-    b = y
+    b=x
 
 while True:
-    if b % x == 0  and b % y == 0:
-        print("The LCM of {} and {} is {}".format(x,y,b))
+    if b % x == 0 and b % y == 0:
+        print("The LCM Of {} and {} is {}".format(x,y,b))
         break
     else:
-        b=b+1 
+        b=b+1
+
+   
