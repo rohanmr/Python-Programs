@@ -4,12 +4,14 @@ num=input("Enter the Number:")
 sum=0
 
 for i in num:
-    sum+=int(i)**3
+  sum=sum+int(i)**3
 
 if sum == int(num):
-    print("Number is Armstrong")
+  print("No is Armstrong")
 else:
-    print("Number is not Armstrong")
+  print("No is not Armstrong")  
+
+
 
 
 # num=input("Enter the no: ")
