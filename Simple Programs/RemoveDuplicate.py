@@ -1,8 +1,11 @@
-array = [1, 2, 2, 3, 4, 4, 5]
+arr= [1, 2, 2, 3, 4, 4, 5]
+
 
 def removeDuplicate(arr):
     return list(set(arr))
 
-result=removeDuplicate(array)
+print("your original array is:",arr)
 
-print(result)
+result=removeDuplicate(arr)
+
+print("Your new array is:",result)
