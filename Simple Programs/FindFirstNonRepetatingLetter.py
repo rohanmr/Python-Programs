@@ -2,6 +2,7 @@
 
 string=input("Enter the the string: ")
 
+
 def first_non_repeating_string(string):
     for i in range(len(string)):
         if string.count(string[i])==1:
@@ -11,3 +12,11 @@ def first_non_repeating_string(string):
 
 result=first_non_repeating_string(string)
 print(result)
+
+
+
+
+# for i in range(len(string)):
+#     if string.count(string[i])== 1:
+#         print(string[i])
+#         break
