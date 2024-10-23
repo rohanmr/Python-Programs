@@ -1,14 +1,13 @@
 # Write a  program to calculate the factorial of a given number. Like for 5 answer should be 120
 
-num=int(input("Enter the no:"))
+num=int(input("Enter the number :"))
 
 fact=1
 
 for i in range(1,num+1):
     fact=fact * i
 
-print(fact)
-
+print("Factorial of given number is :",fact)
 
 
 # whiteout using loop
